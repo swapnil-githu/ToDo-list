@@ -1,0 +1,49 @@
+
+#todo-list {
+  width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form input, form select {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+
+
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  
+}
+
+#list li span {
+  flex: 1;
+  margin-right: 10px;
+}
+
